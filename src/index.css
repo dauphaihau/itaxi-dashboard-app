@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-size: 1.5rem;
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+    background-color: black;
 }
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    /*color: var(--main-color);*/
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    /*color: var(--txt-color);*/
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    border: 2px solid transparent;
+    outline: 0;
+}
+
+input:focus {
+    /*border: 2px solid var(--main-color);*/
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 0.4vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffc107;
+}
+
+.show {
+    opacity: 1 !important;
+    visibility: visible !important;
+    right: 0 !important;
+}
+
+

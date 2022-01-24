@@ -1,9 +1,9 @@
-## Technologies Used :
+## Technologies
 - REACT
 - SASS
 - Styled Components
 
-## Libraries and Assets Used 
+## Libraries and Assets
 - Styled Components
 - React Icons
 - Recharts
